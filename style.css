@@ -1,0 +1,478 @@
+img {
+    width: 890px;
+    height: 450px;
+}
+
+#cars {
+    position: relative;
+    text-align: center;
+}
+
+#cars h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#cars img {
+    width: 100%;
+    height: auto;
+}
+
+#cars button {
+    position: absolute;
+    top: calc(50% + 50px); /* Adjust the value as needed to position the button closer to the h1 */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px; /* Adjust the padding to make the button smaller */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.new {
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.image-grid a {
+    flex: 0 0 calc(31.33% - 23px); /* 31.33% width for each image with some margin */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.image-grid img {
+    max-width: 100%; 
+    max-height: 150px; /* Set a maximum height to make the images smaller */
+    width: auto; /* Let the width adjust automatically to maintain aspect ratio */
+    height: auto; 
+}
+
+.car-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.car-box img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details h2 {
+    margin-bottom: 5px;
+    font-size: small;
+    color: red;
+}
+
+.buttons {
+    margin-top: 10px;
+
+}
+
+.buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.buttons button:hover {
+    background-color: #df103d;
+}
+
+.car-container {
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Display items in a row */
+    flex-wrap: wrap;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-between; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.car-card {
+    width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row with some spacing */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between rows */
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    margin-top: 10px; /* Add space between image and details */
+    font-size: small;
+}
+
+.car-details h2 {
+    margin-bottom: 7px;
+}
+
+.car-buttons {
+    margin-top: 10px;
+}
+
+.car-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car-buttons button:hover {
+    background-color: #ee1919;
+}
+
+.trade {
+    background-color: #e21414;
+    padding-top: 17px;
+    height: max-content;
+}
+.btn2 {
+    text-align: center;
+    color: white;
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to button */
+}
+
+.btn2:hover {
+    background-color: red; /* Change button background color on hover */
+}
+
+
+.container {
+    display: flex;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.separator {
+    border-left: 1px solid #ccc;
+    height: auto; /* Adjust height of separator */
+}
+
+.form1 {
+    display: flex; /* Maintain horizontal elements */
+    align-items: center;
+    width: 1000px;
+    margin-left: 70px;
+   
+    border-top: none; /* Remove top border */
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+    
+    
+    padding: 15px 20px; /* Add padding inside the border */
+    border-radius: 5px; /*   
+      
+
+  
+  .form1, .form1 label, .form1 select, .form1 input, .form1 output, .form1 button {
+    font-family: "Roboto", sans-serif;
+  
+  
+  .form1 label {
+    margin-right: 10px; /* Margin for labels */
+    padding: 10px;
+  }
+  
+  .price-search {
+    display: flex; /* Group price and search together */
+    align-items: center; /* Vertically align elements within */
+    margin-left: 20px; /* Margin from previous elements */
+    
+    padding-top: 10px; 
+  }
+  
+  button {
+    background-color: red;
+    border: none;
+    padding: 15px 30px; /* Increase button size */
+    margin-left: 10px; /* Margin from price range */
+    cursor: pointer;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: red;
+  }
+  
+
+  .sections-container {
+    display: flex; /* Arrange sections side-by-side */
+    flex-wrap: wrap; /* Allow sections to wrap to next line if needed */
+  }
+  
+  .section {
+  
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; 
+    margin: 15px; /* Add margin between sections */
+  }
+  
+  .section img {
+    display: flex; /* Ensure image takes full width within section */
+    margin-bottom: 19px; /* Add space between image and heading */
+    width: 150px;
+    height: 90px;
+    padding-left: 20px;
+  }
+  
+  .section h1 {
+    font-size: 24px; /* Adjust the size as needed */
+    padding-left: 30px;
+  }
+  
+  
+  /* Optional styles for buttons, etc. as needed */
+  
+  .car {
+    width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row with some spacing */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px; /* Add space between rows */
+    margin: 20px;
+}
+
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-between; /* Distribute cards evenly */
+    
+}
+
+.btn-long {
+    width: 100%; /* Set button width to 100% of its container */
+}
+
+
+.about1 {
+    width: 100vw;
+    max-height: 500px;
+  }
+
+  .p2 {
+    text-align: center; 
+    padding: 20px; /* Add padding for spacing from edges */
+    margin: 0 auto; 
+    line-height: 2.4; /* Adjust space between lines (optional) */
+    font-family: "Open Sans", sans-serif; /* Choose a cool font (replace if desired) */
+    font-size: 18px; 
+  }
+
+  
+  .core-item {
+    text-align: center; /* Center text within each item */
+  }
+  
+  .core-item img {
+    width: 80px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    text-align: center;
+    margin-bottom: 5px; 
+  }
+  
+  p {
+    font-size: 24px; 
+  }
+  
+  .value3 {
+    width: 470px;
+    height: 480px;
+  }
+
+  .container {
+    display: flex; /* Arrange image and text side-by-side */
+    height: fit-content; /* Make container fit content height */
+  }
+  
+  .image {
+    width: 480px; /* Adjust image width as needed */
+    height: 400px; /* Maintain aspect ratio */
+  }
+  
+  .text-content {
+    flex: 1; /* Make text content take remaining space */
+    display: flex; /* Allow h1 and p to wrap */
+    flex-wrap: wrap; /* Enable wrapping onto multiple lines */
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .text-content h2,
+  .text-content p {
+    width: 100%; /* Ensure h2 and p fill full width */
+    margin-bottom: 5px; /* Add space between elements */
+    font-size: 24px; /* Reduce font size */
+    text-align: center;
+  }
+  
+  
+  
+  .container1 {
+    display: flex; /* Arrange image and text side-by-side */
+    height: fit-content; /* Make container fit content height */
+  }
+  
+  .text-content {
+    flex: 1; /* Make text content take remaining space */
+    padding: 29px; /* Add padding for spacing */
+  }
+  
+  .image {
+    width: 480px; /* Adjust image width as needed */
+    height:450px; /* Maintain aspect ratio */
+  }
+  
+  text-content ul {
+    list-style: disc !important; /* Force disc style */
+    margin-left: 20px; /* Indent list items */
+  }
+  
+  .text-content li {
+    margin-bottom: 5px; /* Add space between list items */
+    font-size: 24px;
+  }
+  
+
+  footer {
+    background-color: #5c5c5c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 10px;
+}
+
+.footer-icons img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+.container3 {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 81, 255, 0.747);
+}
+
+
+.heading {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 40px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(134, 190, 190);
+  padding: 46px;
+  margin: auto;
+}
+
+.form1 label {
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.price-search {
+  margin-left: 20px;
+}
+
+.price-search label {
+  margin-right: 10px;
+}
