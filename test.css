@@ -1,0 +1,42 @@
+nav {
+    background-color: pink;
+   
+    padding: 25px;
+    
+}
+
+/* nav a  {
+    /* display: flex;
+    color: blue; */
+
+
+ul {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+    /* overflow: hidden; */
+    /* padding-left: 80px; */
+    display: flex;
+   
+}
+  
+  li {
+/* display: flex; */
+    padding-left: 80px;
+  }
+/*   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  } */
+
+  div {
+    width: 450px;
+    height: 450px;
+    padding-left: 80px;
+    background-color: rgb(145, 145, 165);
+  }
